@@ -1,0 +1,266 @@
+
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.main-body {
+    display: flex;
+    height: 100vh;
+}
+
+.navigation {
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+    
+
+}
+
+.nav:hover {
+    background-color:rgba(255, 243, 243, 0.456);
+    border-radius: 20px;
+}
+
+img {
+    width: 40px;
+    height: auto;
+}
+
+.nav-items {
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.nav i {
+    margin-right: 10px;
+}
+
+button {
+    color: white;
+    background-color: rgb(29,155,240);
+    padding: 10px 45px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    cursor: pointer;
+    margin-top: 280px;
+}
+
+.image {
+    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+
+.home-container {
+    width: calc(100vw - 200px);
+    border: 1px solid rgba(255, 243, 243, 0.456);
+    border-top: none;
+    overflow-y: scroll;
+    
+}
+
+.home-above {
+    border-bottom: 1px solid rgba(255, 243, 243, 0.456);
+}
+
+.home-top {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: sticky;
+
+
+}
+
+.home-top .material-icons:hover {
+    background-color:rgba(255, 243, 243, 0.456);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-details {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+
+.form input {
+    border: none;
+    background-color: black;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.icons {
+    color:rgb(29,155,240) ;
+    margin-left: 60px;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post {
+    padding: 10px 25px;
+    margin-right: 10px;
+
+}
+
+.post:hover {
+    cursor: pointer;
+}
+
+.tweets {
+    border-bottom: 1px solid rgba(255, 243, 243, 0.456);
+    font-size: 20px;
+    color: rgb(29,155,240);
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.whole-profile {
+    border-bottom:1px solid rgba(255, 243, 243, 0.456);
+}
+
+.profile-posting {
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.profile {
+    margin: 10px;
+
+
+}
+
+.username {
+    margin-left: 10px;
+}
+
+.name-two {
+    color: rgba(255, 243, 243, 0.456);
+}
+
+.reaction-icons {
+    margin-bottom: 20px;
+}
+
+.likes-icons {
+    margin-right: 10px;
+    margin-left: 3px;
+    cursor: pointer;
+    
+}
+
+.likes-icons:hover {
+    color: blueviolet;
+    
+}
+
+
+.trending-container {
+    width:calc(500px);
+    margin-left: 10px;
+    
+}
+
+.trends-card {
+    background-color: rgba(255, 243, 243, 0.181);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.trending-input {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 25px;
+    color:rgba(255, 243, 243, 0.456) ;
+    background-color: lightgray;
+    font-size: 18px;
+}
+
+.settings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.trends-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place {
+    color: rgba(255, 243, 243, 0.456);
+}
+
+.number-tweets  {
+    color: rgba(255, 243, 243, 0.456);
+}
+
+.trendings {
+    margin-bottom: 20px;
+}
+
+.show {
+    color:rgb(29,155,240) ;
+}
+
+.follow-section {
+    background-color: rgba(255, 243, 243, 0.181);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+ul {
+    color:rgba(255, 243, 243, 0.456) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: rgba(255, 243, 243, 0.181);
+    cursor: pointer; 
+}
+
+
